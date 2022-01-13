@@ -1,0 +1,7 @@
+@import '../../assets/scss/'
+.login {
+  &__main {
+    max-width: 98rem;
+    background-color: $gray-background;
+  }
+}

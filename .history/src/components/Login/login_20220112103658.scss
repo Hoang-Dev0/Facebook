@@ -1,0 +1,13 @@
+@import "../../assets/scss/variable";
+.login {
+  background-color: $gray-background;
+  &__main {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding-top: 13rem;
+  }
+  &__wrap {
+      display: flex;
+      a
+  }
+}

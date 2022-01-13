@@ -1,0 +1,47 @@
+@import
+.login {
+  &__form {
+    padding: 2rem 0;
+    margin: 0 2rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    input {
+      padding: 1.4rem 1.6rem;
+      color: $gray-text-color;
+      font-size: 1.7rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-weight: 500;
+      display: block;
+      width: 100%;
+      margin-bottom: 1.4rem;
+    }
+
+    .password-field {
+      position: relative;
+    }
+    input:focus {
+      border: 1px solid $blue-color;
+    }
+
+    .toggle-password {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 50%;
+
+      transition: all 0.25s ease;
+    }
+    .toggle-password:hover {
+      background-color: rgb(240, 235, 235);
+    }
+  }
+}

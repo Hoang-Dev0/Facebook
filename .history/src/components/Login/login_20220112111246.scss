@@ -1,0 +1,44 @@
+@import "../../assets/scss/variable";
+.login {
+  background-color: $gray-background;
+  &__main {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding-top: 13rem;
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+  }
+  &__left {
+    width: 50rem;
+    img {
+      height: 106px;
+      margin-left: -30px;
+    }
+    p {
+      color: #1c1e21;
+      font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+      font-size: 28px;
+      line-height: 32px;
+      padding: 0px 0px 20px;
+      margin: -6px 0 0 0;
+      text-align: left;
+    }
+  }
+  &__right {
+    width: 40rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+  }
+  &__form {
+    padding: 2rem;
+    input {
+      padding: 1.8rem;
+      color: $gray-text;
+      font-size: 1.7rem;
+      border
+    }
+  }
+}

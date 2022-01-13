@@ -1,0 +1,27 @@
+@import "../../assets/scss/variable";
+.login {
+  background-color: $gray-background;
+  &__main {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding-top: 13rem;
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+  }
+  &__left {
+    img {
+      height: 106px;
+    }
+    p {
+      color: #1c1e21;
+      font-family:
+      SFProDisplay-Regular
+      font-size: 28px;
+      line-height: 32px;
+      padding: 0px 0px 20px;
+    }
+  }
+}

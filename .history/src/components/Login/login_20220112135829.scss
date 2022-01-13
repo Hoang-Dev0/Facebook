@@ -1,0 +1,89 @@
+@import "../../assets/scss/variable";
+.login {
+  background-color: $gray-background;
+  &__main {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+  }
+  &__left {
+    width: 50rem;
+    img {
+      height: 106px;
+      margin-left: -30px;
+    }
+    p {
+      color: #1c1e21;
+      font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+      font-size: 28px;
+      line-height: 32px;
+      padding: 0px 0px 20px;
+      margin: -6px 0 0 0;
+      text-align: left;
+    }
+  }
+  &__right {
+    box-shadow: #000000 0px 2px 23px -11px;
+    width: 40rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+  }
+  &__form {
+    padding: 2rem 0;
+    margin: 0 2rem;
+    border-bottom: 1px solid #ccc;
+    input {
+      padding: 1.8rem;
+      color: $gray-text-color;
+      font-size: 1.7rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-weight: 500;
+      display: block;
+      width: 100%;
+      margin-bottom: 1.4rem;
+    }
+  }
+  .btn.btn--login {
+    font-size: 2rem;
+    background-color: $blue-color;
+    width: 100%;
+    font-weight: bold;
+    padding: 14px 0;
+    margin-bottom: 2rem;
+  }
+  .forgot-password {
+    color: $blue-color;
+    font-size: 1.4rem;
+    margin-bottom: 2.6rem;
+  }
+  .btn.btn-create-account {
+    margin: 2.8rem 0;
+    background-color: $green-color;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  &__content {
+    width: 40rem;
+    // padding-bottom: 17.6rem;
+    margin-left: auto;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    color: #1c1 e21;
+    span {
+      font-weight: bold;
+      color: #000000;
+      cursor: pointer;
+    }
+    span:hover{
+        text-decoration: underline;
+    }
+  }
+}
