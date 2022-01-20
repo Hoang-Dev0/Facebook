@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.scss";
-import "./assets/scss/index.scss";
+import "./styles/scss/index.scss";
 import LoginPage from "./components/Login";
 import Dashboard from "./Pages/dashboard/Dashboard";
 
