@@ -8,6 +8,7 @@ import MenuLeft from "./components/MenuLeft";
 const useStyles = makeStyles({
   dashboard: {
     backgroundColor: "#f0f2f5",
+    paddingTop: "1rem"
   },
 });
 export default function Dashboard() {
@@ -18,7 +19,7 @@ export default function Dashboard() {
       {/* <MenuLeft /> */}
       <Grid
         className={classes.dashboard}
-        sx={{ mt: "64px" }}
+        // sx={{ mt: "64px" }}
         container
         spacing={0}
       >
@@ -26,10 +27,10 @@ export default function Dashboard() {
           <MenuLeft />
         </Grid>
         <Grid item xs>
-          <MenuLeft />
+          {/* <MenuLeft /> */}
         </Grid>
         <Grid item xs={2.684}>
-          <MenuLeft />
+          {/* <MenuLeft /> */}
         </Grid>
       </Grid>
     </div>
