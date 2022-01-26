@@ -1,0 +1,98 @@
+@import "../../../../../styles/scss/variable";
+.create-content {
+  margin-top: 2.4rem;
+  &__main {
+    width: 50rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 3px 0px #ccc;
+    padding: 1.2rem 1.6rem 1rem;
+    background-color: #fff;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgb(228, 226, 226);
+
+    img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+    p {
+      width: 100%;
+      font-size: 1.7rem;
+      padding: 1.2rem;
+      border-radius: 3rem;
+      background-color: #f0f2f5;
+      color: $gray-text-color;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.25s ease;
+
+      &:hover {
+        background-color: #e2e7ee;
+      }
+    }
+  }
+  &__bottom {
+    padding-top: 1.2rem;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    margin-right: 0.8rem;
+    transition: all 0.25s ease;
+
+    &:hover {
+      background-color: #f0f2f5;
+      cursor: pointer;
+    }
+    div {
+      position: relative;
+      i:last-child {
+        position: absolute;
+        top: 50%;
+        left: 3.4px;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        color: #fff;
+      }
+    }
+    i {
+      font-size: 2.4rem;
+      padding-right: 0.8rem;
+    }
+    span {
+      font-size: 1.4rem;
+      font-weight: 600;
+      font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #686a6b;
+    }
+  }
+
+  .action--red {
+    color: #f3425f;
+  }
+  .action--green {
+    color: #45bd62;
+  }
+  .action--yellow {
+    color: #f7b928;
+  }
+}

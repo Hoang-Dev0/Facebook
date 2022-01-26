@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.scss";
+import Dashboard from "./components/pages/dashboard/Dashboard";
 import "./styles/scss/index.scss";
-import LoginPage from "./components/Login";
-import Dashboard from "./Pages/dashboard/Dashboard";
 
 function App() {
   return (
