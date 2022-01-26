@@ -1,6 +1,8 @@
 @import "../../styles/scss/variable";
 .header {
+
   height: 56px;
+
   width: 100%;
   overflow: hidden;
   color: $black-text-color;
@@ -96,5 +98,7 @@
       background-color: $gray-hover-color;
     }
 
+
   }
+
 }
