@@ -4,6 +4,8 @@ import { makeStyles } from "@mui/styles";
 
 import Header from "../../components/Header";
 import MenuLeft from "./components/MenuLeft";
+import MenuRight from "./components/MenuRight";
+import Content from "./components/Content";
 
 const useStyles = makeStyles({
   dashboard: {
@@ -13,12 +15,12 @@ const useStyles = makeStyles({
 export default function Dashboard() {
   const classes = useStyles();
   return (
-    <div>
+    <>
       <Header />
       {/* <MenuLeft /> */}
       <Grid
         className={classes.dashboard}
-        sx={{ mt: "64px" }}
+        sx={{ mt: "55px" }}
         container
         spacing={0}
       >
@@ -26,12 +28,12 @@ export default function Dashboard() {
           <MenuLeft />
         </Grid>
         <Grid item xs>
-          <MenuLeft />
+          <Content />
         </Grid>
         <Grid item xs={2.684}>
-          <MenuLeft />
+          <MenuRight />
         </Grid>
       </Grid>
-    </div>
+    </>
   );
 }
