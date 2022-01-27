@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dang Xuan Chien",
+      "avatar": "https://images.unsplash.com/photo-1643285740368-f7f1ba6b116f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "status": 1,
+      "email": "xuanchienk58@gmail.com",
+      "password": "123213",
+      "posts": [
+        {
+          "id": "1",
+          "title": "NO CAPTION",
+          "image": "imgage.png",
+          "like": 1000,
+          "comments": "Bài viết oke"
+        },
+        {
+          "id": "2",
+          "title": "Bài post số 2",
+          "image": "imgage.png",
+          "like": 10000,
+          "comments": "Bài viết okk"
+        }
+      ],
+      "storys": [
+        {
+          "id": "1",
+          "image": "https://images.unsplash.com/photo-1643187052917-8365785db900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": "2",
+          "image": "https://images.unsplash.com/photo-1643289733842-62713bacaae4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+      ],
+      "friends": [
+        {
+          "id": "1",
+          "name": "Nguyen Van Do",
+          "avatar": "avatar.png",
+          "status": 1,
+          "posts": [
+            {
+              "id": "1",
+              "title": "NGUYEN VAN DO POST",
+              "image": "imgage.png",
+              "like": 1000,
+              "comments": "Bài viết ok"
+            },
+            {
+              "id": "2",
+              "title": "NGUYEN VAN DO POST 2",
+              "image": "imgage.png",
+              "like": 10000,
+              "comments": "Bài viết okk"
+            }
+          ],
+          "storys": [
+            {
+              "id": "1",
+              "image": "https://images.unsplash.com/photo-1643286772135-9c077f23a964?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            },
+            {
+              "id": "2",
+              "image": "https://images.unsplash.com/photo-1643289966366-50cff1106a9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            },
+            {
+              "id": "3",
+              "image": "https://images.unsplash.com/photo-1643289952392-4dab0a495947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            },
+            {
+              "id": "4",
+              "image": "https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Nguyen Phuc Hoang",
+          "avatar": "avatar.png",
+          "posts": [
+            {
+              "id": "1",
+              "title": "NGUYEN PHUC HOANG POST",
+              "image": "imgage.png",
+              "like": 1000,
+              "comments": "Bài viết ok"
+            },
+            {
+              "id": "2",
+              "title": "NGUYEN PHUC HOANG POST 2",
+              "image": "imgage.png",
+              "like": 10000,
+              "comments": "Bài viết okk"
+            }
+          ],
+          "storys": [
+            {
+              "id": "1",
+              "image": "story.png"
+            },
+            {
+              "id": "2",
+              "image": "story.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Phuc Hoang",
+      "avatar": "avatar.png",
+      "status": 1,
+      "email": "phuchoang1232000@gmail.com",
+      "password": "123213",
+      "posts": [
+        {
+          "id": "1",
+          "title": "NO CAPTION",
+          "image": "imgage.png",
+          "like": 1000,
+          "comments": "Bài viết oke"
+        },
+        {
+          "id": "2",
+          "title": "Bài post số 2",
+          "image": "imgage.png",
+          "like": 10000,
+          "comments": "Bài viết okk"
+        }
+      ],
+      "storys": [
+        {
+          "id": "1",
+          "image": "https://images.unsplash.com/photo-1643286772135-9c077f23a964?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": "2",
+          "image": "https://images.unsplash.com/photo-1643289966366-50cff1106a9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": "3",
+          "image": "https://images.unsplash.com/photo-1643289952392-4dab0a495947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": "4",
+          "image": "https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        }
+      ],
+      "friends": [
+        {
+          "id": "1",
+          "name": "Nguyen Van Do",
+          "avatar": "avatar.png",
+          "status": 1,
+          "posts": [
+            {
+              "id": "1",
+              "title": "NGUYEN VAN DO POST",
+              "image": "imgage.png",
+              "like": 1000,
+              "comments": "Bài viết ok"
+            },
+            {
+              "id": "2",
+              "title": "NGUYEN VAN DO POST 2",
+              "image": "imgage.png",
+              "like": 10000,
+              "comments": "Bài viết okk"
+            }
+          ],
+          "storys": [
+            {
+              "id": "1",
+              "image": "story.png"
+            },
+            {
+              "id": "2",
+              "image": "story.png"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Nguyen Phuc Hoang",
+          "avatar": "avatar.png",
+          "posts": [
+            {
+              "id": "1",
+              "title": "NGUYEN PHUC HOANG POST",
+              "image": "imgage.png",
+              "like": 1000,
+              "comments": "Bài viết ok"
+            },
+            {
+              "id": "2",
+              "title": "NGUYEN PHUC HOANG POST 2",
+              "image": "imgage.png",
+              "like": 10000,
+              "comments": "Bài viết okk"
+            }
+          ],
+          "storys": [
+            {
+              "id": "1",
+              "image": "story.png"
+            },
+            {
+              "id": "2",
+              "image": "story.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

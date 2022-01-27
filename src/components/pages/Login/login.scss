@@ -1,6 +1,7 @@
-@import "../../styles/scss/variable";
+@import "../../../styles/scss/variable";
 .login {
   background-color: $gray-background;
+  height: 100vh;
   &__main {
     max-width: 98rem;
     margin: 0 auto;

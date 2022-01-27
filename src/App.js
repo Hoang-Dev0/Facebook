@@ -1,12 +1,17 @@
 import "./App.scss";
+import LoginPage from "./components/pages/Login";
 import Dashboard from "./components/pages/dashboard/Dashboard";
 import "./styles/scss/index.scss";
+import AppRouter from "./router/index";
 
 function App() {
   return (
     <div className="App">
-      {/* <LoginPage /> */}
-      <Dashboard />
+      <span className="btn-new-message">
+        <i class="far fa-edit"></i>
+      </span>
+
+      <AppRouter />
     </div>
   );
 }

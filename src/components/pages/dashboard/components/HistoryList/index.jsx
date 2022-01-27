@@ -4,9 +4,12 @@ import PropTypes from "prop-types";
 import "./historyList.scss";
 import HistoryCard from "../HistoryCard";
 
-HistoryList.propTypes = {};
+HistoryList.propTypes = {
+  currentUser: PropTypes.object,
+};
 
-function HistoryList(props) {
+function HistoryList({ currentUser = {} }) {
+  console.log(currentUser);
 
   return (
     <ul className="content__history-list">

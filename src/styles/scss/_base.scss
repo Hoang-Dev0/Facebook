@@ -114,3 +114,24 @@ select {
   visibility: none;
   opacity: 0;
 }
+.btn-new-message {
+  width: 4.8rem;
+  height: 4.8rem;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 7px 0px #ccc;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 1.4rem;
+  right: 2rem;
+  z-index: 999;
+
+  i {
+    position: relative;
+    left: 1px;
+  }
+}

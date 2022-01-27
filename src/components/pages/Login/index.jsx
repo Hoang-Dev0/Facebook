@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-
-import "./login.scss";
-import "../../api/GetUsersData";
+import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+import "./login.scss";
 import LoginForm from "./components/LoginForm";
-import GetUsersData from "../../api/GetUsersData";
+import userAPI from "../../../services/userApi";
 
 LoginPage.propTypes = {};
 
 function LoginPage(props) {
-  const users = GetUsersData();
-
+  const [users, setUsers] = useState([]);
+  const navigate = useNavigate();
+  useEffect(() => {
+    (async () => {
+      try {
+        const users = await userAPI.getAllUser();
+        setUsers(users);
+      } catch (error) {
+        console.log("Fail to fetch data", error);
+      }
+    })();
+  }, []);
   const notify = (type, message) =>
     toast[type](message, {
       position: "top-right",
@@ -44,7 +54,6 @@ function LoginPage(props) {
           localStorage.setItem("loggedUser", JSON.stringify(currentUser));
         }
       }
-
       if (!currentUser && formValue.email !== "" && formValue.password !== "") {
         notify("error", "Sai tài khoản hoặc mật khẩu !");
       }

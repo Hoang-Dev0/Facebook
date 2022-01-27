@@ -15,24 +15,20 @@ const useStyles = makeStyles({
 });
 export default function Dashboard() {
   const classes = useStyles();
+  const currentUser = JSON.parse(localStorage.getItem("loggedUser"));
+  // const loggedUser = !!currentUser;
   return (
     <>
       <Header />
-      <Grid
-        className={classes.dashboard}
-        // sx={{ mt: "55px" }}
-
-        container
-        spacing={0}
-      >
+      <Grid className={classes.dashboard} container spacing={0}>
         <Grid item xs={2.684}>
           <MenuLeft />
         </Grid>
         <Grid item xs>
-          <Content />
+          <Content currentUser={currentUser} />
         </Grid>
         <Grid item xs={2.684}>
-          <MenuRight />
+          <MenuRight currentUser={currentUser} />
         </Grid>
       </Grid>
     </>
