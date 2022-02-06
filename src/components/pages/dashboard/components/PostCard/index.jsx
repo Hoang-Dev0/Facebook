@@ -21,6 +21,7 @@ function PostCard({ friends, user, post }) {
   };
 
   const listComment = post?.comments;
+  const [isLike, setIsLike] = useState(false); //toggle button like
   const [listFriendComment, setListFriendComment] = useState([]); // list friend and comment
   useEffect(() => {
     listComment.forEach((comment) => {
@@ -114,13 +115,16 @@ function PostCard({ friends, user, post }) {
           {/* <span className="post__share">385 lượt chia sẻ</span> */}
         </div>
         <div className="posts__actions">
-          <div className="posts__action">
+          <div
+            className={`posts__action ${isLike ? "active" : ""}`}
+            onClick={() => setIsLike((prev) => !prev)}
+          >
             <i className="far fa-thumbs-up"></i>
             <span>Thích</span>
           </div>
           <div className="posts__action">
             <i className="far fa-comment-alt"></i>
-            <span>Yêu thích</span>
+            <span>Bình luận</span>
           </div>
           <div className="posts__action">
             <i className="fal fa-share"></i>

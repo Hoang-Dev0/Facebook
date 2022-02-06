@@ -69,7 +69,7 @@ export default function Header() {
             </div>
             <div className="header__right--menu">{<GiAbstract050 />}</div>
             <div className="header__right--messenger">
-              {<FaFacebookMessenger />}w
+              {<FaFacebookMessenger />}
             </div>
             <div className="header__right--notify">{<NotificationsIcon />}</div>
             <div className="header__right--account">
