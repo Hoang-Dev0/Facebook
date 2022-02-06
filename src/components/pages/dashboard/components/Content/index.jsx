@@ -15,9 +15,9 @@ function Content({ currentUser = {} }) {
   return (
     <section className="content">
       <div className="content__container">
-        <HistoryList currentUser={currentUser}/>
-        <CreatePost />
-        <PostList />
+        <HistoryList currentUser={currentUser} />
+        <CreatePost currentUser={currentUser} />
+        <PostList currentUser={currentUser} />
       </div>
     </section>
   );

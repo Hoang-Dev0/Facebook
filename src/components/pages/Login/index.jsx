@@ -52,6 +52,9 @@ function LoginPage(props) {
         if (currentUser) {
           notify("success", "Đăng nhập thành công !");
           localStorage.setItem("loggedUser", JSON.stringify(currentUser));
+          setTimeout(() => {
+            navigate("/");
+          }, 2000);
         }
       }
       if (!currentUser && formValue.email !== "" && formValue.password !== "") {

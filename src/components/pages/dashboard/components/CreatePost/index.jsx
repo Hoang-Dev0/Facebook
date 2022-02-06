@@ -1,17 +1,23 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import "./createPost.scss";
 
-function CreatePost(props) {
+CreatePost.propTypes = {
+  currentUser: PropTypes.object,
+};
+
+function CreatePost({ currentUser }) {
+  const words = currentUser.name.split(" ");
+  const lenght = words.length;
+  const lastName = words[lenght - 1];
   return (
     <>
       <section className="create-content">
         <div className="create-content__main">
           <div className="create-content__top">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-            <p>Phan ơi, bạn đang nghĩ gì thế?</p>
+            <img src={currentUser.avatar} alt="" />
+            <p>{lastName + " ơi, bạn đang nghĩ gì thế?"}</p>
           </div>
           <div className="create-content__bottom">
             <ul className="create-content__actions">

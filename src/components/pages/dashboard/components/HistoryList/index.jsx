@@ -9,14 +9,19 @@ HistoryList.propTypes = {
 };
 
 function HistoryList({ currentUser = {} }) {
-  console.log(currentUser);
+  
+  const friends = currentUser.friends;
 
   return (
     <ul className="content__history-list">
       <li className="content__history-item">
         <a href="#" className="content__history-link">
           <img
-            src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/p526x296/272115271_2091058694384433_5241051845720726402_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=825194&_nc_ohc=y2rPs3Ffii4AX9dLDPd&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT_4UQL86vw-iYd80cEp5HSLOteQ7dIjD-syONMlpjlHxg&oe=61EFEEEB"
+            src={
+              currentUser.avatar
+                ? currentUser.avatar
+                : "https://www.stregasystem.com/img/users/user.png"
+            }
             alt=""
             className="content__history-img"
           />
@@ -28,10 +33,21 @@ function HistoryList({ currentUser = {} }) {
           </div>
         </a>
       </li>
-      <HistoryCard />
-      <HistoryCard />
-      <HistoryCard />
-      <HistoryCard />
+      <HistoryCard
+        avatar={currentUser.avatar}
+        storyImage={currentUser.storys[0].image}
+      />
+
+      {/* {Array.from(Array(3).keys()).map((item, index) => (
+        <HistoryCard key={index} currentUser={currentUser} />
+      ))} */}
+      {friends.map((friend, index) => {
+        const avatar = friend.avatar;
+        const storyImage = friend.storys[0].image;
+        return (
+          <HistoryCard key={index} avatar={avatar} storyImage={storyImage} />
+        );
+      })}
 
       <span className="content__history-arrow">
         <i className="fas fa-arrow-right"></i>

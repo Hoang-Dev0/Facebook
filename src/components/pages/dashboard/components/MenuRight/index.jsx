@@ -2,9 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./menuRight.scss";
 
-MenuRight.propTypes = {};
+MenuRight.propTypes = {
+  currentUser: PropTypes.object,
+};
 
-function MenuRight(props) {
+function MenuRight({ currentUser }) {
+  const friends = currentUser.friends;
+
   return (
     <section className="menu-right">
       <h3 className="menu-right__reminder">Lời nhắc</h3>
@@ -33,133 +37,14 @@ function MenuRight(props) {
       </div>
 
       <ul className="menu-right__content">
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        <li>
-          <div className="avatar">
-            <img
-              src="https://images.unsplash.com/photo-1642478880159-0afa788e0530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
-          </div>
-          <p>Thanh Nguyễn</p>
-        </li>
-        
+        {friends.map((friend, index) => (
+          <li key={index}>
+            <div className="avatar">
+              <img src={friend.avatar} alt="" />
+            </div>
+            <p>{friend.name}</p>
+          </li>
+        ))}
       </ul>
     </section>
   );

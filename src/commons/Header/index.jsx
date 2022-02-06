@@ -13,6 +13,11 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import "./header.scss";
 
 export default function Header() {
+  const currentUser = JSON.parse(localStorage.getItem("loggedUser"));
+  const words = currentUser.name.split(" ");
+  const lenght = words.length;
+  const lastName = words[lenght - 1];
+
   return (
     <div className="header">
       <Grid container>
@@ -52,15 +57,19 @@ export default function Header() {
             <div className="header__right--info">
               <div className="header__right--info-img">
                 <img
-                  src="https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-1/cp0/c0.12.50.50a/p50x50/271823767_3285339685044453_2994956191335449856_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=IrpyiENDS_0AX9B6Yi7&_nc_oc=AQm5Mrm6B5ml5ZhBph3C8bMeVivCOcObeB-J6e9OgQCyZqWsTqp66tYEkkqHKT4KNr6gpWt6gLRhSg_MXNmavV8g&_nc_ht=scontent.fdad1-1.fna&oh=00_AT_7husLTfmD8SvBlpUIfUJ2B5sQXWKp_kxelI9VIt79Dg&oe=61F51242"
+                  src={
+                    currentUser.avatar
+                      ? currentUser.avatar
+                      : "https://www.stregasystem.com/img/users/user.png"
+                  }
                   alt=""
                 />
               </div>
-              <div className="header__right--info-name">Chiến</div>
+              <div className="header__right--info-name">{lastName}</div>
             </div>
             <div className="header__right--menu">{<GiAbstract050 />}</div>
             <div className="header__right--messenger">
-              {<FaFacebookMessenger />}
+              {<FaFacebookMessenger />}w
             </div>
             <div className="header__right--notify">{<NotificationsIcon />}</div>
             <div className="header__right--account">

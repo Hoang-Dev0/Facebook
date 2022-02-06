@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <span className="btn-new-message">
-        <i class="far fa-edit"></i>
+        <i className="far fa-edit"></i>
       </span>
 
       <AppRouter />
