@@ -169,7 +169,14 @@
     color: rgb(114, 113, 113);
     cursor: pointer;
     transition: all 0.25s ease;
-
+    &.active {
+      i {
+        color: $blue-color;
+      }
+      span {
+        color: $blue-color;
+      }
+    }
     &:hover {
       background-color: rgb(238, 236, 236);
     }

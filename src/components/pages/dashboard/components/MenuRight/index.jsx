@@ -45,6 +45,123 @@ function MenuRight({ currentUser }) {
             <p>{friend.name}</p>
           </li>
         ))}
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>  
+          <p>Phuc Hoang</p>
+        </li>
+        <li>
+          <div className="avatar">
+            <img
+              src="https://images.unsplash.com/photo-1643306964821-c0d592088b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <p>Phuc Hoang</p>
+        </li>
       </ul>
     </section>
   );
