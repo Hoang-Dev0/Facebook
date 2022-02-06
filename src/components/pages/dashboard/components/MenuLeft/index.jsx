@@ -38,9 +38,9 @@ export default function MenuLeft({ currentUser }) {
   };
   // handle load data of menu left
   const loadMenuLeft = () => {
-    return menuList.map((value) => {
+    return menuList.map((value,index) => {
       if (value.id <= length) {
-        return <Card icon={value.icon} title={value.title} />;
+        return <Card key={index} icon={value.icon} title={value.title} />;
       }
     });
   };
@@ -58,10 +58,10 @@ export default function MenuLeft({ currentUser }) {
   };
   // handle load data of menu left
   const loadFooterMenuLeft = () => {
-    return menuListgroup.map((value) => {
+    return menuListgroup.map((value,index) => {
       if (value.id <= lengthShortcut) {
         console.log(value);
-        return <ShortCut icon={value.icon} title={value.title} />;
+        return <ShortCut key={index} icon={value.icon} title={value.title} />;
         
       }
     });
