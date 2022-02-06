@@ -35,7 +35,7 @@ function PostList({ currentUser }) {
             {/*Friend of CurrentUser's postcard */}
             {friends.map((friend) => {
               const listPostCard = friend.posts.map((post, index) => {
-                console.log(<PostCard user={friend} post={post} />);
+                // console.log(<PostCard user={friend} post={post} />);
                 return <PostCard key={index} user={friend} post={post} />;
               });
               return listPostCard;

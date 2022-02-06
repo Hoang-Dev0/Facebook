@@ -2,12 +2,13 @@
 .header {
 
   height: 56px;
-
+  position: fixed;
   width: 100%;
   overflow: hidden;
+  z-index: 10000;
   color: $black-text-color;
   background-color: $white-header-color;
-  // box-shadow: 10px 10px;
+  box-shadow: 0px 3px 3px $gray-hover-color;
   &__logo{
     float: left;
     overflow: hidden;
@@ -24,15 +25,16 @@
     overflow: hidden;
     height: 4rem;
     width: 60%;
-     
+    color: $gray-text-color;
     float: left;
     border-radius: 20px;
     // border: 1px solid black ;
     background-color: $gray-hover-color;
     &--icon{
-      width: 12%;
+      width: 16%;
       float: left;
-      font-size: 30px;
+      padding: 8px 8px;
+      // font-size: 30px;
       
     }
     &--input{
@@ -45,6 +47,7 @@
   }
   &__center{
     height: 56px;
+    color: $gray-text-color;
     &--item{
       padding: 15px;
       float: left;
@@ -85,7 +88,17 @@
       }
     }
     &--menu,
-    &--messenger,
+    &--messenger
+    {
+      width: 4rem;
+      height: 4rem;
+      float: left;
+      margin: 8px 5px; 
+      font-size: 20px;
+      border-radius: 50%;
+      padding: 10px 10px;
+      background-color: $gray-hover-color;
+    }
     &--notify,
     &--account{
       width: 4rem;
@@ -94,7 +107,7 @@
       margin: 8px 5px; 
       font-size: 20px;
       border-radius: 50%;
-      padding: 10px 10px;
+      padding: 8px 7px;
       background-color: $gray-hover-color;
     }
 

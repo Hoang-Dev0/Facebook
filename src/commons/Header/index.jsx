@@ -24,7 +24,7 @@ export default function Header() {
         <Grid item xs={3}>
           <div className="header__logo">f</div>
           <div className="header__search">
-            <div className="header__search--icon">{<SearchIcon />}</div>
+            <div className="header__search--icon">{<SearchIcon sx={{ fontSize: 23 }}/>}</div>
             <input
               className="header__search--input"
               placeholder="Tìm kiếm trên facebook"
@@ -69,11 +69,11 @@ export default function Header() {
             </div>
             <div className="header__right--menu">{<GiAbstract050 />}</div>
             <div className="header__right--messenger">
-              {<FaFacebookMessenger />}w
+              {<FaFacebookMessenger />}
             </div>
-            <div className="header__right--notify">{<NotificationsIcon />}</div>
+            <div className="header__right--notify">{<NotificationsIcon sx={{ fontSize: 25 }}/>}</div>
             <div className="header__right--account">
-              {<ArrowDropDownIcon />}
+              {<ArrowDropDownIcon sx={{ fontSize: 25 }}/>}
             </div>
           </div>
         </Grid>

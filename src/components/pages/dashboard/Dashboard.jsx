@@ -22,7 +22,7 @@ export default function Dashboard() {
       <Header />
       <Grid className={classes.dashboard} container spacing={0}>
         <Grid item xs={2.684}>
-          <MenuLeft />
+          <MenuLeft currentUser={currentUser}/>
         </Grid>
         <Grid item xs>
           <Content currentUser={currentUser} />

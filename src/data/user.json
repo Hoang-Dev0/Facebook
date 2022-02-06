@@ -248,7 +248,147 @@
             }
           ]
         }
+      ],
+      "listGroup": [
+        {
+          "id": "1",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/cp0/c41.0.50.50a/p50x50/270065160_2470177593116127_4881443151514239092_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=Ylc39lTh-lsAX8YJxIp&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_-JoS3aM_rZrmJIYpXcEPvSZOCd2H6TqH4UefzfE74oA&oe=61F6CC87",
+          "title": "Bộ tộc MixiGaming"
+        },
+        {
+          "id": "2",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/p50x50/129340666_387167539395067_8669010725407273523_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=_gPUwfUjM4gAX9ltZjM&_nc_ht=scontent.fdad1-2.fna&oh=00_AT83KeROcKR1VCmaS_6rbSUxmsmPeA8yLX3N2LuMcS0FMg&oe=6217F3C9",
+          "title": "Hội Bán Giày Phá Giá Sneaker ( Fake & Real )"
+        },
+        {
+          "id": "3",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/c22.0.50.50a/p50x50/133712703_129776498971611_9015275464190842687_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=pxXJkA5xZdEAX8Xv-i1&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_rdqVathykaBKoOPXcm3faudZtGTjKHiu0xwh8IMLe3w&oe=621756F8",
+          "title": "DTU - K28 - Sinh viên Đại học Duy Tân - Tuyển sinh 2022 (Official)"
+        },
+        {
+          "id": "4",
+          "icon": "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/cp0/c21.0.50.50a/p50x50/156128256_193184042630856_8939152559651896295_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=2J6pbtAt50kAX99-VFD&_nc_ht=scontent.fdad2-1.fna&oh=00_AT9difOltsBfL788akBDrmVafuMocGK0SrSuZnQeE1Atng&oe=6215BBAD",
+          "title": "DTU - K25 - Sinh viên Đại học Duy Tân - 2019 (Official)"
+        },
+        {
+          "id": "5",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png",
+          "title": "Học lập trình web (F8 - Fullstack.edu.vn)"
+        },
+        {
+          "id": "6",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png",
+          "title": "Marketplace"
+        },
+        {
+          "id": "7",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/p50x50/129340666_387167539395067_8669010725407273523_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=_gPUwfUjM4gAX9ltZjM&_nc_ht=scontent.fdad1-2.fna&oh=00_AT83KeROcKR1VCmaS_6rbSUxmsmPeA8yLX3N2LuMcS0FMg&oe=6217F3C9",
+          "title": "Hội Bán Giày Phá Giá Sneaker ( Fake & Real )"
+        },
+        {
+          "id": "8",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/c22.0.50.50a/p50x50/133712703_129776498971611_9015275464190842687_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=pxXJkA5xZdEAX8Xv-i1&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_rdqVathykaBKoOPXcm3faudZtGTjKHiu0xwh8IMLe3w&oe=621756F8",
+          "title": "DTU - K28 - Sinh viên Đại học Duy Tân - Tuyển sinh 2022 (Official)"
+        },
+        {
+          "id": "9",
+          "icon": "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/cp0/c21.0.50.50a/p50x50/156128256_193184042630856_8939152559651896295_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=2J6pbtAt50kAX99-VFD&_nc_ht=scontent.fdad2-1.fna&oh=00_AT9difOltsBfL788akBDrmVafuMocGK0SrSuZnQeE1Atng&oe=6215BBAD",
+          "title": "DTU - K25 - Sinh viên Đại học Duy Tân - 2019 (Official)"
+        }
+      ],
+      "listFunction": [
+        {
+          "id": "1",
+          "icon": "https://images.unsplash.com/photo-1643281423533-21be6e1737a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+          "title": "Đặng Xuân Chiến"
+        },
+        {
+          "id": "2",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png",
+          "title": "Bạn bè"
+        },
+        {
+          "id": "3",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/he-BkogidIc.png",
+          "title": "Kỷ niệm"
+        },
+        {
+          "id": "4",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/4Y9Xi2D3hJv.png",
+          "title": "Messenger"
+        },
+        {
+          "id": "5",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png",
+          "title": "Nhóm"
+        },
+        {
+          "id": "6",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png",
+          "title": "Marketplace"
+        },
+        {
+          "id": "7",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/n2vd2VduYc1.png",
+          "title": "Chiến dịch gây quỹ"
+        },
+        {
+          "id": "8",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/PObY9OA5lvJ.png",
+          "title": "Chơi game"
+        },
+        {
+          "id": "9",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/lVijPkTeN-r.png",
+          "title": "Đã lưu"
+        },
+        {
+          "id": "10",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png",
+          "title": "FaceBook Pay"
+        },
+        {
+          "id": "11",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/w-vdKCGzCy1.png",
+          "title": "Gần đây nhất"
+        },
+        {
+          "id": "12",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/8OasGoQgQgF.png",
+          "title": "Hoạt động quảng cáo gần đây"
+        },
+        {
+          "id": "13",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1Xvrz50fHMF.png",
+          "title": "Messenger nhí"
+        },
+        {
+          "id": "14",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/DHBHg9MEeSC.png",
+          "title": "Quảng cáo"
+        },
+        {
+          "id": "15",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/eXC82ZeepQ7.png",
+          "title": "sự kiện"
+        },
+        {
+          "id": "16",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/vxMUnHhu6Do.png",
+          "title": "Sức khỏe cảm xúc"
+        },
+        {
+          "id": "17",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/bo0Zt72NIra.png",
+          "title": "Thời tiết"
+        },
+        {
+          "id": "18",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png",
+          "title": "Trang"
+        }
       ]
+
     },
     {
       "id": "2",
@@ -497,6 +637,145 @@
               "image": "https://images.unsplash.com/photo-1536329583941-14287ec6fc4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
             }
           ]
+        }
+      ],
+      "listGroup": [
+        {
+          "id": "1",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/cp0/c41.0.50.50a/p50x50/270065160_2470177593116127_4881443151514239092_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=Ylc39lTh-lsAX8YJxIp&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_-JoS3aM_rZrmJIYpXcEPvSZOCd2H6TqH4UefzfE74oA&oe=61F6CC87",
+          "title": "Bộ tộc MixiGaming"
+        },
+        {
+          "id": "2",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/p50x50/129340666_387167539395067_8669010725407273523_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=_gPUwfUjM4gAX9ltZjM&_nc_ht=scontent.fdad1-2.fna&oh=00_AT83KeROcKR1VCmaS_6rbSUxmsmPeA8yLX3N2LuMcS0FMg&oe=6217F3C9",
+          "title": "Hội Bán Giày Phá Giá Sneaker ( Fake & Real )"
+        },
+        {
+          "id": "3",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/c22.0.50.50a/p50x50/133712703_129776498971611_9015275464190842687_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=pxXJkA5xZdEAX8Xv-i1&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_rdqVathykaBKoOPXcm3faudZtGTjKHiu0xwh8IMLe3w&oe=621756F8",
+          "title": "DTU - K28 - Sinh viên Đại học Duy Tân - Tuyển sinh 2022 (Official)"
+        },
+        {
+          "id": "4",
+          "icon": "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/cp0/c21.0.50.50a/p50x50/156128256_193184042630856_8939152559651896295_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=2J6pbtAt50kAX99-VFD&_nc_ht=scontent.fdad2-1.fna&oh=00_AT9difOltsBfL788akBDrmVafuMocGK0SrSuZnQeE1Atng&oe=6215BBAD",
+          "title": "DTU - K25 - Sinh viên Đại học Duy Tân - 2019 (Official)"
+        },
+        {
+          "id": "5",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png",
+          "title": "Học lập trình web (F8 - Fullstack.edu.vn)"
+        },
+        {
+          "id": "6",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png",
+          "title": "Marketplace"
+        },
+        {
+          "id": "7",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/p50x50/129340666_387167539395067_8669010725407273523_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=_gPUwfUjM4gAX9ltZjM&_nc_ht=scontent.fdad1-2.fna&oh=00_AT83KeROcKR1VCmaS_6rbSUxmsmPeA8yLX3N2LuMcS0FMg&oe=6217F3C9",
+          "title": "Hội Bán Giày Phá Giá Sneaker ( Fake & Real )"
+        },
+        {
+          "id": "8",
+          "icon": "https://scontent.fdad1-2.fna.fbcdn.net/v/t1.6435-9/cp0/c22.0.50.50a/p50x50/133712703_129776498971611_9015275464190842687_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=pxXJkA5xZdEAX8Xv-i1&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_rdqVathykaBKoOPXcm3faudZtGTjKHiu0xwh8IMLe3w&oe=621756F8",
+          "title": "DTU - K28 - Sinh viên Đại học Duy Tân - Tuyển sinh 2022 (Official)"
+        },
+        {
+          "id": "9",
+          "icon": "https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/cp0/c21.0.50.50a/p50x50/156128256_193184042630856_8939152559651896295_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=2J6pbtAt50kAX99-VFD&_nc_ht=scontent.fdad2-1.fna&oh=00_AT9difOltsBfL788akBDrmVafuMocGK0SrSuZnQeE1Atng&oe=6215BBAD",
+          "title": "DTU - K25 - Sinh viên Đại học Duy Tân - 2019 (Official)"
+        }
+      ],
+      "listFunction": [
+        {
+          "id": "1",
+          "icon": "https://images.unsplash.com/photo-1643479530454-cf3ce7cd8f3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "title": "Nguyễn Phúc Hoàng"
+        },
+        {
+          "id": "2",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png",
+          "title": "Bạn bè"
+        },
+        {
+          "id": "3",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/he-BkogidIc.png",
+          "title": "Kỷ niệm"
+        },
+        {
+          "id": "4",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/4Y9Xi2D3hJv.png",
+          "title": "Messenger"
+        },
+        {
+          "id": "5",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png",
+          "title": "Nhóm"
+        },
+        {
+          "id": "6",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png",
+          "title": "Marketplace"
+        },
+        {
+          "id": "7",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/n2vd2VduYc1.png",
+          "title": "Chiến dịch gây quỹ"
+        },
+        {
+          "id": "8",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/PObY9OA5lvJ.png",
+          "title": "Chơi game"
+        },
+        {
+          "id": "9",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/lVijPkTeN-r.png",
+          "title": "Đã lưu"
+        },
+        {
+          "id": "10",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png",
+          "title": "FaceBook Pay"
+        },
+        {
+          "id": "11",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/w-vdKCGzCy1.png",
+          "title": "Gần đây nhất"
+        },
+        {
+          "id": "12",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/8OasGoQgQgF.png",
+          "title": "Hoạt động quảng cáo gần đây"
+        },
+        {
+          "id": "13",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1Xvrz50fHMF.png",
+          "title": "Messenger nhí"
+        },
+        {
+          "id": "14",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/DHBHg9MEeSC.png",
+          "title": "Quảng cáo"
+        },
+        {
+          "id": "15",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/eXC82ZeepQ7.png",
+          "title": "sự kiện"
+        },
+        {
+          "id": "16",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/vxMUnHhu6Do.png",
+          "title": "Sức khỏe cảm xúc"
+        },
+        {
+          "id": "17",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/bo0Zt72NIra.png",
+          "title": "Thời tiết"
+        },
+        {
+          "id": "18",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png",
+          "title": "Trang"
         }
       ]
     }
