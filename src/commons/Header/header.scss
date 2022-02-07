@@ -1,6 +1,5 @@
 @import "../../styles/scss/variable";
 .header {
-
   height: 56px;
   position: fixed;
   width: 100%;
@@ -8,8 +7,8 @@
   z-index: 10000;
   color: $black-text-color;
   background-color: $white-header-color;
-  box-shadow: 0px 3px 3px $gray-hover-color;
-  &__logo{
+  box-shadow: 1px 1px 4px 2px #ccc;
+  &__logo {
     float: left;
     overflow: hidden;
     height: 4rem;
@@ -17,10 +16,11 @@
     font-size: 50px;
     margin: 8px 8px 8px 15px;
     color: $white-header-color;
-    border-radius:50%;
+    border-radius: 50%;
     background-color: $blue-color;
+    cursor: pointer;
   }
-  &__search{
+  &__search {
     margin: 8px 8px 8px 0px;
     overflow: hidden;
     height: 4rem;
@@ -30,14 +30,13 @@
     border-radius: 20px;
     // border: 1px solid black ;
     background-color: $gray-hover-color;
-    &--icon{
+    &--icon {
       width: 16%;
       float: left;
       padding: 8px 8px;
       // font-size: 30px;
-      
     }
-    &--input{
+    &--input {
       background-color: $gray-hover-color;
       float: left;
       width: 80%;
@@ -45,42 +44,46 @@
       font-size: 15px;
     }
   }
-  &__center{
+  &__center {
     height: 56px;
     color: $gray-text-color;
-    &--item{
+    &--item {
       padding: 15px;
       float: left;
       list-style-type: none;
       width: 20%;
+      cursor: pointer;
+      transition: all 0.25s ease;
       // border: 1px solid black;
       height: 100%;
-      &:hover{
+      &:hover {
         background-color: $gray-hover-color;
       }
     }
   }
-  &__right{
+  &__right {
     height: 56px;
-    &--info{
+    &--info {
       height: 36px;
       width: 25%;
       float: left;
-      border-radius:20px;
+      border-radius: 20px;
       overflow: hidden;
       margin: 10px 10px;
-      &:hover{
+      cursor: pointer;
+      transition: all 0.25s ease;
+      &:hover {
         background-color: $gray-hover-color;
       }
-      &-img{
+      &-img {
         width: 28px;
         height: 28px;
         margin: 4px 4px;
-        border-radius:50%;
+        border-radius: 50%;
         float: left;
         overflow: hidden;
       }
-      &-name{
+      &-name {
         width: 28px;
         height: 28px;
         float: left;
@@ -90,30 +93,31 @@
       }
     }
     &--menu,
-    &--messenger
-    {
+    &--messenger {
       width: 4rem;
       height: 4rem;
       float: left;
-      margin: 8px 5px; 
+      margin: 8px 5px;
       font-size: 20px;
       border-radius: 50%;
       padding: 10px 10px;
       background-color: $gray-hover-color;
+      cursor: pointer;
+      transition: all 0.25s ease;
     }
     &--notify,
-    &--account{
+    &--account {
       width: 4rem;
       height: 4rem;
       float: left;
-      margin: 8px 5px; 
+      margin: 8px 5px;
       font-size: 20px;
       border-radius: 50%;
       padding: 8px 7px;
       background-color: $gray-hover-color;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      
     }
-
-
   }
-
 }
