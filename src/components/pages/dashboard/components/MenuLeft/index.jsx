@@ -36,7 +36,7 @@ export default function MenuLeft({ currentUser }) {
   };
   // handle load data of menu left
   const loadMenuLeft = () => {
-    return menuList.map((value, index) => {
+    return menuList.map((value,index) => {
       if (value.id <= length) {
         return <Card key={index} icon={value.icon} title={value.title} />;
       }
@@ -59,6 +59,7 @@ export default function MenuLeft({ currentUser }) {
     return menuListgroup.map((value, index) => {
       if (value.id <= lengthShortcut) {
         // console.log(value);
+
         return <ShortCut key={index} icon={value.icon} title={value.title} />;
         
       }
