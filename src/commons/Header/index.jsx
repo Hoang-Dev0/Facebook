@@ -10,13 +10,22 @@ import { GiAbstract050 } from "react-icons/gi";
 import { FaFacebookMessenger } from "react-icons/fa";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import NotificationsIcon from "@mui/icons-material/Notifications";
+import { useState } from "react";
 import "./header.scss";
+import AccountSetting from "./components/accountSetting/AccountSetting";
 
 export default function Header() {
   const currentUser = JSON.parse(localStorage.getItem("loggedUser"));
   const words = currentUser.name.split(" ");
   const lenght = words.length;
   const lastName = words[lenght - 1];
+
+  const [accountState, setAccountState] = useState(false);
+  const handleAccountSetting = ()=>{
+    // console.log("chien");
+    console.log(accountState);
+    setAccountState(!accountState);
+  }
 
   return (
     <div className="header">
@@ -72,9 +81,10 @@ export default function Header() {
               {<FaFacebookMessenger />}
             </div>
             <div className="header__right--notify">{<NotificationsIcon sx={{ fontSize: 25 }}/>}</div>
-            <div className="header__right--account">
+            <button onClick={handleAccountSetting} className="header__right--account">
               {<ArrowDropDownIcon sx={{ fontSize: 25 }}/>}
-            </div>
+            </button>
+            {accountState && <AccountSetting currentUser={currentUser}/>}
           </div>
         </Grid>
       </Grid>

@@ -9,8 +9,6 @@ export default function MenuLeft({ currentUser }) {
   const menuList = currentUser['listFunction'];
   const menuListgroup =  currentUser['listGroup'];
  
-  console.log(currentUser['listGroup']);
-  console.log(currentUser['listFunction']);
   /*handle show header menuleft */
   const [seeMore, setSeeMore] = useState(true);
   const [length, setLength] = useState(5);
@@ -38,9 +36,9 @@ export default function MenuLeft({ currentUser }) {
   };
   // handle load data of menu left
   const loadMenuLeft = () => {
-    return menuList.map((value) => {
+    return menuList.map((value, index) => {
       if (value.id <= length) {
-        return <Card icon={value.icon} title={value.title} />;
+        return <Card key={index} icon={value.icon} title={value.title} />;
       }
     });
   };
@@ -58,10 +56,10 @@ export default function MenuLeft({ currentUser }) {
   };
   // handle load data of menu left
   const loadFooterMenuLeft = () => {
-    return menuListgroup.map((value) => {
+    return menuListgroup.map((value, index) => {
       if (value.id <= lengthShortcut) {
-        console.log(value);
-        return <ShortCut icon={value.icon} title={value.title} />;
+        // console.log(value);
+        return <ShortCut key={index} icon={value.icon} title={value.title} />;
         
       }
     });

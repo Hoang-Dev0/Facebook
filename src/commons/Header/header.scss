@@ -24,7 +24,7 @@
     margin: 8px 8px 8px 0px;
     overflow: hidden;
     height: 4rem;
-    width: 60%;
+    width: 70%;
     color: $gray-text-color;
     float: left;
     border-radius: 20px;
@@ -55,7 +55,9 @@
       width: 20%;
       // border: 1px solid black;
       height: 100%;
-       
+      &:hover{
+        background-color: $gray-hover-color;
+      }
     }
   }
   &__right{
